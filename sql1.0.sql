@@ -148,7 +148,9 @@ use o2o;
 --   CONSTRAINT `fk_proimg_product` FOREIGN KEY (`product_id`) REFERENCES `tb_product` (`product_id`)
 -- ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
   
-  
+-- SELECT area_id,area_name,priority
+--         FROM tb_area
+--         ORDER BY priority DESC
   
   
   
