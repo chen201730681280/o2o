@@ -4,6 +4,7 @@ import com.imooc.o2o.entity.Shop;
 
 /**
  * 店铺的注册功能
+ * dao声明接口
  */
 public interface ShopDao {
     /**

@@ -1,16 +1,12 @@
-2020-09-08 15:22:15.561 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?, ?,?,?,?,?,?, ?,?,?) 
-2020-09-08 15:25:08.963 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?, ?,?,?,?,?,?, ?,?,?) 
-2020-09-08 15:25:08.992 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-09-08 15:25:08.692(Timestamp), null, 1(Integer), 审核中(String)
-2020-09-08 15:25:09.005 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2020-09-08 16:06:31.741 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
-2020-09-08 16:06:31.765 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-09-08 16:06:31.495(Timestamp), 1(Long)
-2020-09-08 16:06:31.769 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 0
-2020-09-08 16:07:23.182 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
-2020-09-08 16:07:23.204 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-09-08 16:07:22.928(Timestamp), 1(Long)
-2020-09-08 16:07:23.205 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 0
-2020-09-08 16:07:43.781 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
-2020-09-08 16:07:43.803 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-09-08 16:07:43.543(Timestamp), 37(Long)
-2020-09-08 16:07:43.805 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 0
-2020-09-08 16:08:11.686 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
-2020-09-08 16:08:11.709 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-09-08 16:08:11.444(Timestamp), 36(Long)
-2020-09-08 16:08:11.715 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-09-10 10:29:34.850 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-09-10 10:29:34.888 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-09-10 10:29:34.925 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2020-09-10 10:31:04.942 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-09-10 10:31:04.966 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-09-10 10:31:04.984 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2020-09-10 10:31:38.528 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-09-10 10:31:38.555 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-09-10 10:31:38.574 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2020-09-10 10:45:49.871 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-09-10 10:45:49.897 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-09-10 10:45:49.605(Timestamp), 36(Long)
+2020-09-10 10:45:49.918 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
